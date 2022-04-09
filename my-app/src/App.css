@@ -1,0 +1,75 @@
+.App {
+  font-family: 'Inter', sans-serif;
+}
+.App-header {
+  padding: 20px;
+  border-bottom: 2px solid lightgray;
+}
+.App-logo {
+  width: 100px;
+}
+.App-hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+.App-img {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.App-hero-heading {
+  margin-bottom: 0;
+  font-size: 35px;
+}
+.App-hero-para {
+  margin-top: 10px;
+  width: 60%;
+}
+.cards-list {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.App-card-component {
+  width: 200px;
+  font-size: 12px;      
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: 1rem;
+
+
+}
+.cardImg {
+  width: 100%;
+  height: 250px;
+  align-self: flex-start;
+}
+.stats {
+  display: flex;
+  align-items: center;
+}
+.reviewcount {
+  color: gray
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.price {
+  margin-top: 10px;
+}
+.card--badge {
+  position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
